@@ -5,6 +5,7 @@
  */
 package view;
 
+import DAO.UsuarioDAO;
 import javax.swing.JOptionPane;
 
 /**
@@ -159,11 +160,19 @@ public class TelaSistema extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         
-        if(txtLogin.getText().equals("admin") && txtSenha.getText().equals("1234")){
-            new TelaPrincipalMDI().setVisible(true);
+//        if(txtLogin.getText().equals("admin") && txtSenha.getText().equals("1234")){
+//            new TelaPrincipalMDI().setVisible(true);
+//        }else{
+//            JOptionPane.showMessageDialog(null,"usuario ou senha invalidos");
+//        }
+        UsuarioDAO dao = new UsuarioDAO();
+        if(dao.checkLogin(txtLogin.getText(), txtSenha.getText())){
+            new TelaPrincipalMDI().setVisible(true); 
+            
         }else{
-            JOptionPane.showMessageDialog(null,"usuario ou senha invalidos");
-        }
+            JOptionPane.showMessageDialog(null, "Usuario ou senha invalido");
+        };
+        
         
     }//GEN-LAST:event_jButton1ActionPerformed
 

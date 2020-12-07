@@ -3,13 +3,14 @@ package objetos;
 public class Cliente {
     private String nome = "";
     private String cpf = "";
-    private String sexo = "";
     private String endereco = "";
     private String cidade = "";
     private String estado = "";
     private String dataNasc = "";
+    private String email = "";
     private String fone = "";
-
+    private String cnpj = ""; 
+    private int id;
 
 
     public Cliente() {
@@ -22,21 +23,20 @@ public class Cliente {
     public void setNome(String nome) {
         this.nome = nome;
     }
+        public String getEmail() {
+        return email;
+    }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
     public String getCpf() {
         return cpf;
     }
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
-    }
-
-    public String getSexo() {
-        return sexo;
-    }
-
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
     }
 
     public String getEndereco() {
@@ -72,23 +72,40 @@ public class Cliente {
     }
     
     public String getFone() {
-        return dataNasc;
+        return fone;
     }
 
     public void setFone(String fone) {
         this.fone = fone;
     }
 
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
+    
+    public int getId() {
+        return id;
+    }    
+
+    public void setId(int id) {
+        this.id = id;
+    }    
+
+
 
      public void limpaCliente(){
        nome = "";
        cpf = "";
-       sexo = "";
        endereco = "";
        cidade = "";
        estado = "";
        dataNasc = "";
        fone = "";
+       cnpj = "";
     }   
     
 
