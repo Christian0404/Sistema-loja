@@ -20,7 +20,8 @@
 <p align="justify">Faltando apenas a parte "Realizar venda"</p>
 
 <h4>Sobre o Projeto</h4>
-<p><b>Linguagens utilizadas: </b>JAVA e MySQL</p>
+<p><b>Linguagens utilizadas: </b>JAVA e MySQL.</p>
+<p><b>Visão: </b>Sistema de gestão de vendas.</p>
 
 <h5>Sobre o Autor</h5>
 <p align="justify">Sérgio Haruki Nakagawa | RA: 200278 |  sergioharuki@gmail.com</p>
