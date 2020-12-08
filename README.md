@@ -11,9 +11,10 @@
 <p align="justify">-Cadastro de Clientes</p>
  <img src="https://github.com/Sergioharuki/Sistema-loja/blob/main/src/images/TelaCadastroCliente.PNG">
 <p align="justify">-Cadastro de Produtos</p>
-<p align="justify">-Cadastro de Fornecedores</p>
+<img src="https://github.com/Sergioharuki/Sistema-loja/blob/main/src/images/TelaCadastroProduto.PNG">
 <p align="justify">-Cadastro de Usuários</p>
-<p align="justify">-Nova venda</p>
+<img src="https://github.com/Sergioharuki/Sistema-loja/blob/main/src/images/TelaCadastroUser.PNG">
+
 
 <h4>Status do Projeto:</h4>
 <p align="justify">Faltando apenas a parte "Realizar venda"</p>
