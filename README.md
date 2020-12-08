@@ -15,7 +15,10 @@
 <p align="justify">-Nova venda</p>
 
 <h4>Status do Projeto:</h4>
-<p align="justify">Em desenvolvimento!</p>
+<p align="justify">Faltando apenas a parte "Realizar venda"</p>
+
+<h4>Sobre o Projeto</h4>
+<p><b>Linguagens utilizadas: </b>JAVA e MySQL</p>
 
 <h5>Sobre o Autor</h5>
 <p align="justify">Sérgio Haruki Nakagawa | RA: 200278 |  sergioharuki@gmail.com</p>
