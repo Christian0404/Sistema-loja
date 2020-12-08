@@ -9,7 +9,7 @@
 
 <h4>O que o sistema pode fazer:</h4>
 <p align="justify">-Cadastro de Clientes</p>
- <img src=src/images/TelaCadastroCliente.png>
+ <img src="https://github.com/Sergioharuki/Sistema-loja/blob/main/src/images/TelaCadastroCliente.PNG">
 <p align="justify">-Cadastro de Produtos</p>
 <p align="justify">-Cadastro de Fornecedores</p>
 <p align="justify">-Cadastro de Usuários</p>
