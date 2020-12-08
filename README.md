@@ -9,6 +9,7 @@
 
 <h4>O que o sistema pode fazer:</h4>
 <p align="justify">-Cadastro de Clientes</p>
+ <img src=”src/images/TelaCadastroCliente.png”>
 <p align="justify">-Cadastro de Produtos</p>
 <p align="justify">-Cadastro de Fornecedores</p>
 <p align="justify">-Cadastro de Usuários</p>
